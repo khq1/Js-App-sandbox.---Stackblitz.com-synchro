@@ -1,0 +1,40 @@
+
+body {margin:0;}
+h1, h2 {
+  font-family: Lato;
+}
+
+div{backgroung:red;}
+
+.fullscreen{}
+
+#main {
+height: 100%;
+width: 100%;
+position: absolute;
+background-color:#ff009d ;
+color:#ffffff;
+}
+#button1 {
+  position: relative;
+  height: 100px;
+width: 100px;
+background-color:hsl(187, 100%, 50%) ;
+clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+right:-75%;
+bottom: -40%;
+}
+
+
+.ctr {
+  position: relative;
+  height: 200px;
+width: 200px;
+background-color:hsl(187, 100%, 50%) ;
+clip-path: polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+right: -25%;
+bottom: -25%;
+font-size: 130%;
+text-align: center;
+
+}
